@@ -26,7 +26,8 @@ In your activity will create list of headers and from your custom adapter will c
         }
 
         return tempListView;
-    }private ArrayList<String> listHeaders() {
+    }
+    private ArrayList<String> listHeaders() {
         ArrayList<String> list = new ArrayList<>();
         list.add("C1111C1111");
         list.add("C2222C2222");
@@ -37,6 +38,7 @@ In your activity will create list of headers and from your custom adapter will c
 
         return list;
     }
+    
     MyView myView = new MyView(this);
         myView.loadingDataTable(listHeaders(),setContentList(),1,5,Color.WHITE,Color.WHITE);
         setContentView(myView);
