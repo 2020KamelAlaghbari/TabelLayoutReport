@@ -1,7 +1,7 @@
 # TabelLayoutReport
 How to use this library
 
-It's free fro any one to use it.
+It's free to any one to use it.
 
 In your activity will create list of headers and from your custom adapter will create list of String content of this adapter.
 
