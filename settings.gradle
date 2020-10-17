@@ -1,0 +1,3 @@
+include ':TableLayoutReport'
+include ':app'
+rootProject.name = "ReportApp"
